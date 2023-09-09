@@ -10,6 +10,7 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
     text-align: left;
     color: white;
@@ -23,6 +24,7 @@ body {
 
 .hero .hero-inner {
     border: 5px solid red;
+    margin: auto;
 }
 
 .hero h1 {
@@ -31,13 +33,15 @@ body {
     margin-bottom: 0.5em;
     /* margin-right: 1em; */
 }
+.imagem{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
-.hero img {
+    margin: auto;
+}
+.imagem img{
+    width: 300px;
     border: 5px solid red;
     border-radius: 50%;
 }
-
-.hero .imagem img{
-    height: ;
-}
-
