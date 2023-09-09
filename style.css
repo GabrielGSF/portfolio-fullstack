@@ -45,3 +45,10 @@ body {
     border: 5px solid red;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 768px) {
+    .hero{
+        display:flex;
+    }
+}
+
