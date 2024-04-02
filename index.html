@@ -5,67 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Santos Ferreira | Full Stack Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Material+Icons+Round'>
 </head>
 <body>
     <!-- Header Section -->
-    <header id="home">
+    <header>
+        <!-- Menu -->
         <nav id="navbar">
-            <ul class="navbar-items flexbox-col">
-                <li class="navbar-logo flexbox-left">
-                    <a href="" class="navbar-item-inner flexbox">
-                        <img src="/images/floco.png" alt="">
-                    </a>
-                </li>
-                <li class="navbar-item flexbox-left">
-                    <a href="" class="navbar-item-inner flexbox-left">
-                        <div class="navbar-item-inner-icon-wrapper flexbox">
-                            <ion-icon name="search-outline"></ion-icon>
-                        </div>
-                        <span class="link-text">Search</span>
-                    </a>
-                </li>
-                <li class="navbar-item flexbox-left">
-                    <a href="" class="navbar-item-inner flexbox-left">
-                        <div class="navbar-item-inner-icon-wrapper flexbox">
-                            <ion-icon name="home-outline"></ion-icon>
-                        </div>
-                        <span class="link-text">Home</span>
-                    </a>
-                </li>
-                <li class="navbar-item flexbox-left">
-                    <a href="" class="navbar-item-inner flexbox-left">
-                        <div class="navbar-item-inner-icon-wrapper flexbox">
-                            <ion-icon name="folder-open-outline"></ion-icon>
-                        </div>
-                        <span class="link-text">Projects</span>
-                    </a>
-                </li>
-                <li class="navbar-item flexbox-left">
-                    <a href="" class="navbar-item-inner flexbox-left">
-                        <div class="navbar-item-inner-icon-wrapper flexbox">
-                            <ion-icon name="pie-chart-outline"></ion-icon>
-                        </div>
-                        <span class="link-text">About</span>
-                    </a>
-                </li>
-                <li class="navbar-item flexbox-left">
-                    <a href="" class="navbar-item-inner flexbox-left">
-                        <div class="navbar-item-inner-icon-wrapper flexbox">
-                            <ion-icon name="people-outline"></ion-icon>
-                        </div>
-                        <span class="link-text">Tech Stack</span>
-                    </a>
-                </li>
-                <li class="navbar-item flexbox-left">
-                    <a href="" class="navbar-item-inner flexbox-left">
-                        <div class="navbar-item-inner-icon-wrapper flexbox">
-                            <ion-icon name="folder-open-outline"></ion-icon>
-                        </div>
-                        <span class="link-text">Contato</span>
-                    </a>
-                </li>
-            </ul>
+                <ul class="navbar-items flexbox-col">
+                    <!-- Logo -->
+                    <li class="navbar-logo flexbox-left">
+                        <a class="navbar-item-inner flexbox">
+                            <img src="images/floco.png" alt="logo">
+                        </a>
+                    </li>
+                    <!-- Projetos -->
+                    <li class="navbar-item flexbox-left">
+                        <a class="navbar-item-inner flexbox-left">
+                            <div class="navbar-item-inner-icon-wrapper flexbox">
+                                <ion-icon name="albums-outline"></ion-icon>
+                            </div>
+                            <span class="link-text">Projetos</span>
+                        </a>
+                    </li>
+                    <!-- About -->
+                    <li class="navbar-item flexbox-left">
+                        <a class="navbar-item-inner flexbox-left">
+                            <div class="navbar-item-inner-icon-wrapper flexbox">
+                                <ion-icon name="document-text-outline"></ion-icon>
+                            </div>
+                            <span class="link-text">Sobre</span>
+                        </a>
+                    </li>
+                    <!-- Skills -->
+                    <li class="navbar-item flexbox-left">
+                        <a class="navbar-item-inner flexbox-left">
+                            <div class="navbar-item-inner-icon-wrapper flexbox">
+                                <ion-icon name="code-slash-outline"></ion-icon>
+                            </div>
+                            <span class="link-text">Tecnologias</span>
+                        </a>
+                    </li>
+                    <!-- Contato -->
+                    <li class="navbar-item flexbox-left">
+                        <a class="navbar-item-inner flexbox-left">
+                            <div class="navbar-item-inner-icon-wrapper flexbox">
+                                <ion-icon name="call-outline"></ion-icon>
+                            </div>
+                            <span class="link-text">Contato</span>
+                        </a>
+                    </li>
+                    <li class="navbar-item flexbox-left">
+                        <a class="navbar-item-inner flexbox-left">
+                            <div class="navbar-item-inner-icon-wrapper flexbox">
+                                <ion-icon name="download-outline"></ion-icon>
+                            </div>
+                            <span class="link-text">Currículo</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+    <!-- End Menu -->
     <!--Hero Section-->
     <section class="hero" id="home">
         <div class="hero-inner">
@@ -78,26 +80,11 @@
     </section>
     <!--End Hero Section-->
     </header>
+    <!-- End Header Section -->
     <main>
-        <!-- About Me Section -->
-        <h1 class="title" id="about">About Me</h1>
-        <section class="about-section">
-            <div class="about">
-                <img src="images/tokito.jpg" alt="User photo">
-                <div class="about-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut harum, beatae consequuntur asperiores quia neque soluta quod dolores minus inventore sint itaque eum hic veritatis cumque consequatur dignissimos. Tempore, consequuntur!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fugit ratione ad officia eum veniam earum, quos in, eligendi voluptatum magnam quasi quod. Quidem fuga hic excepturi dignissimos culpa eius.</p>
-                    <div class="btn-curriculo">
-                        <a href="#"><strong>Baixar Currículo</strong></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End About Me Section -->
-        <!-- Projects Section-->
-        <h1 class="title" id="projects">Projects</h1>
-        <section class="articles">
-            <!--Card 1-->
+        <!--Projects section-->
+        <h1 class="title">Projects</h1>
+        <section class="articles" id="projects">
             <article>
                 <div class="article-wrapper">
                     <figure>
@@ -159,6 +146,30 @@
             </article>
         </section>
         <!--End Projects section-->
+
+        <!--About me section-->
+        <h1 class="title" id="about">Sobre mim</h1>
+        <section class="about-section" >
+            <div class="about">
+                <img src="images/tokito.jpg" alt="User photo">
+                <div class="about-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut harum, beatae consequuntur asperiores quia neque soluta quod dolores minus inventore sint itaque eum hic veritatis cumque consequatur dignissimos. Tempore, consequuntur!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fugit ratione ad officia eum veniam earum, quos in, eligendi voluptatum magnam quasi quod. Quidem fuga hic excepturi dignissimos culpa eius.</p>
+                    <div class="btn-curriculo">
+                        <a href="#"><strong>Baixar Currículo</strong></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End About me section-->
+
+        <!-- Skills Section -->
+        <h1 class="title" id="skills">Tecnologias</h1>
+        <!-- End Skills Section -->
+
+        <!-- Contact Section -->
+        <h1 class="title" id="contact">Contate-me</h1>
+        <!-- End Contact Section -->
     </main>
     <footer>
 
