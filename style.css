@@ -48,6 +48,10 @@ ul, ol {
     color: #89cff0;
     font-weight: bold;
 }
+
+/* Header */
+
+/* Menu - Navbar */
 .flexbox {
     display: flex;
     justify-content: center;
@@ -64,8 +68,6 @@ ul, ol {
     flex-direction: column;
     align-items: center;
 }
-/* Header */
-/* Menu - Navbar */
 #navbar {
     top: 0;
     padding: 0;
@@ -164,6 +166,65 @@ ul, ol {
 ::-webkit-scrollbar-thumb {
     background-color: hsl(var(--primary));
 }
+/* End Menu - Navbar */
+
+/* Social Icons Sidebar */
+.social {
+    position: fixed;
+    right: 0;
+    top: 30%;
+}
+.social ul {
+    padding: 0;
+    transform: translate(60%);
+    list-style-type: none;
+}
+.social ul li {
+    display: block;
+    margin: 5px;
+    background-color: aqua;
+    width: 130px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 30px 0 0 30px;
+    transition: all 1s;
+}
+.social ul li a {
+    text-decoration: none;
+}
+.social ul li:hover {
+    transform: translate(-60%);
+    background: black;
+    border: 1px solid aqua;
+}
+.social ul li:hover a {
+    color: white;
+    text-decoration: none;
+}
+.social ul li:hover i {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.36);
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+.social ul li i {
+    text-align: center;
+    margin-right: 10px;
+    color: #000;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    transform: rotate(0deg);
+}
+.social ul li:hover i {
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+/* End Social Icons Sidebar */
+
 /*Hero*/
 .hero {
     width: 100%;
@@ -243,9 +304,6 @@ ul, ol {
     border: 1px  solid #89cff0;
     color: #F3F6FB;
 }
-
-
-
 /* End About Section */
 
 /*Projects Section*/
