@@ -96,18 +96,38 @@
         <h1 class="title" id="projects">Projetos</h1>
         <section class="projects-section">
 
+            <div class="center" onclick="window.p1.showModal();">
+                <div class="article-card">
+                  <div class="content">
+                    <p class="date">Jan 1, 2022</p>
+                    <p class="title">Article Title Goes Here</p>
+                  </div>
+                  <img src="https://images.unsplash.com/photo-1482877346909-048fb6477632?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=958&q=80" alt="article-cover" />
+                </div>
+            </div>
+            <dialog id="p1">
+               <h2>Hello.</h2>
+               <p>A CSS-only modal based on the <a href="https://developer.mozilla.org/es/docs/Web/CSS/::backdrop" target="_blank">::backdrop</a> pseudo-class. Hope you find it helpful.</p>
+               <p>You can also change the styles of the <code>::backdrop</code> from the CSS.</p>
+            <button onclick="window.p1.close();" arial-label="close" class="x">❌</button>
+            </dialog>
+
+            <div class="center" onclick="window.p2.showModal();">
+                <div class="article-card">
+                  <div class="content">
+                    <p class="date">Jan 1, 2022</p>
+                    <p class="title">Article Title Goes Here</p>
+                  </div>
+                  <img src="https://images.unsplash.com/photo-1482877346909-048fb6477632?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=958&q=80" alt="article-cover" />
+                </div>
+            </div>
+            <dialog id="p2">
+                <h2>Ola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum cum minus eligendi, culpa architecto odit magnam quibusdam, ipsam possimus facere similique consequatur aliquid repellat autem sequi voluptatibus sint, porro facilis!</p>
+                <button onclick="window.p2.close();" arial-label="close" class="x">❌</button>
+            </dialog>
+
             <div class="center">
-
-                <div class="article-card" onclick="window.dialog.showModal()">
-                  <div class="content">
-                    <p class="date">Jan 1, 2022</p>
-                    <p class="title">Article Title Goes Here</p>
-                  </div>
-                  <img src="https://images.unsplash.com/photo-1482877346909-048fb6477632?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=958&q=80" alt="article-cover" />
-                </div>
-              </div>
-
-              <div class="center">
                 <div class="article-card">
                   <div class="content">
                     <p class="date">Jan 1, 2022</p>
@@ -115,18 +135,8 @@
                   </div>
                   <img src="https://images.unsplash.com/photo-1482877346909-048fb6477632?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=958&q=80" alt="article-cover" />
                 </div>
-              </div>
+            </div>
 
-              <div class="center">
-                <div class="article-card">
-                  <div class="content">
-                    <p class="date">Jan 1, 2022</p>
-                    <p class="title">Article Title Goes Here</p>
-                  </div>
-                  <img src="https://images.unsplash.com/photo-1482877346909-048fb6477632?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=958&q=80" alt="article-cover" />
-                </div>
-              </div>
-            </div> 
         </section>
         <!--End Projects section-->
 
