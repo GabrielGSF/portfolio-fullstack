@@ -21,15 +21,15 @@
 }
 html, body {
     margin: 0;
-    /* background-color: var(--background); */
     font-family: var(--font-main);
     width: 100%;
     -webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* background-image: url(./images/waves.png); */
     background: url(./images/waves.png) var(--background) round;
     /* background-size: cover; */
+    
 }
 a {
     color: hsla(var(--primary), 1);
@@ -80,6 +80,7 @@ ul, ol {
     overflow-x: hidden;
     border-radius: 0 20px 20px 0;
     border-right: 1px solid aqua;
+    box-sizing: border-box;
 }
 #navbar:hover {
     width: 16em;
@@ -172,7 +173,7 @@ ul, ol {
 .social {
     position: fixed;
     right: 0;
-    top: 30%;
+    /* top: 5%; */
 }
 .social ul {
     padding: 0;
@@ -307,20 +308,22 @@ ul, ol {
 /* End About Section */
 
 /*Projects Section*/
-.articles{
+.projects-section{
     display: flex;
     justify-content: space-evenly;
+    height: 100vh;
 }
 .center {
     /* transform: scale(1.5); */
     /* height: 100vh; */
     display: flex;
     flex-direction: row;
+    align-items: center;
   
 }
 .article-card {
     width: 350px;
-    height: 220px;
+    height: 420px;
     border-radius: 12px;
     overflow: hidden;
     position: relative;
