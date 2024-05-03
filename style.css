@@ -47,6 +47,7 @@ ul, ol {
     text-align: center;
     color: #89cff0;
     font-weight: bold;
+    margin: 0;
 }
 
 /* Header */
@@ -315,6 +316,7 @@ ul, ol {
 .projects-section{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     height: 100vh;
     z-index: 0;
 }
@@ -324,7 +326,6 @@ ul, ol {
     display: flex;
     flex-direction: row;
     align-items: center;
-  
 }
 .article-card {
     width: 320px;
@@ -370,8 +371,8 @@ ul, ol {
 /* Modal Card */
 dialog {
     padding: 1rem 3rem;
-    background: #fffafa;
-    max-width: 400px;
+    background: #ddd9ce;
+    max-width: 500px;
     padding-top: 2rem;
     border-radius: 20px;
     border: 0;
@@ -382,7 +383,7 @@ dialog {
 dialog::-webkit-backdrop {
     -webkit-animation: fadeIn 1s ease both;
             animation: fadeIn 1s ease both;
-    background: rgba(20, 20, 20, 0.822);
+    background: rgba(20, 20, 20, 0.4);
     z-index: 2;
     -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
@@ -390,7 +391,7 @@ dialog::-webkit-backdrop {
 dialog::backdrop {
     -webkit-animation: fadeIn 1s ease both;
             animation: fadeIn 1s ease both;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(20, 20, 20, 0.4);
     z-index: 2;
     -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
@@ -413,12 +414,14 @@ dialog .x:hover {
 dialog h2 {
     font-weight: 600;
     font-size: 2rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 0; */
+    text-align: center;
 }
 dialog p {
     font-size: 1rem;
     line-height: 1.3rem;
     padding: 0.5rem 0;
+    text-align: justify;
 }
 dialog p a:visited {
     color: rgba(29 92 255);
